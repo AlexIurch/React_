@@ -1,0 +1,87 @@
+.mainBlock{
+    /* display: block; */
+    /* position: relative; */
+    grid-area: m;
+    /* height: 1fr; */
+    background: #F5F5F5;
+    height: fit-content;
+}
+
+.frontEd{
+    background: none;
+    color: #292929;
+}
+
+.projectCardsBlock{
+    position: relative;
+    margin-top: 25%;
+    height: 1500px
+    /* background-color: #ededb7; */
+}
+
+.projectCard{
+    width: 559.9px;
+    height: 309px;
+    border-radius: 15px;
+}
+
+.block1{
+    position: absolute;
+    left: 2%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    
+    background: #df3906;
+    border-radius: 15px;  
+}
+
+.block2{
+    position: absolute;
+    left: 51%;
+    right: 0%;
+    top: -8%;
+    bottom: 0%;
+    background: #0276b0;
+    border-radius: 15px;
+}
+
+.block3{
+    position: absolute;
+    left: 2%;
+    right: 0%;
+    top: 23%;
+    bottom: 0%;
+    background: #E6E6E6;
+    border-radius: 15px;
+}
+
+.block4{
+    position: absolute;
+    left: 51%;
+    right: 0%;
+    top: 15%;
+    bottom: 0%;
+    background: #91db98;
+    border-radius: 15px;
+}
+
+.block5{
+    position: absolute;
+    left: 2%;
+    right: 0%;
+    top: 46%;
+    bottom: 0%;
+    background: #e28b8b;
+    border-radius: 15px;
+}
+
+.block6{
+    position: absolute;
+    left: 51%;
+    right: 0%;
+    top: 38%;
+    bottom: 0%;
+    background: #c4f0c9;
+    border-radius: 15px;
+}

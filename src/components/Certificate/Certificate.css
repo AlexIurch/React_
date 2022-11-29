@@ -1,0 +1,99 @@
+.education{
+    text-align: center;
+    background-color: rgb(153, 202, 245);
+
+}
+
+
+.container-certificate{
+    margin: 0 auto;
+    /* height: 1vh; */
+    width: 1190px;
+    background-color: rgb(153, 202, 245);
+
+}
+
+.wrap-container{
+    background-color: rgb(153, 202, 245);
+    margin: 0 auto;
+
+    /* height: 2000px; */
+    width: 1190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+}
+
+.certificateBlock{
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: row; */
+    background-color: antiquewhite;
+    margin: 40px;
+    height: 354px;
+    width: 1120px; 
+}
+
+
+.photo{
+    margin: 10px;
+    height: 333px;
+    width: 440px;
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
+
+transform:
+rotate3d(.4,-.866,0,05deg)
+rotate(1deg);
+box-shadow:
+2em 4em 6em -2em rgba(0,0,0,.5),
+1em 2em 3.5em -2.5em rgba(0,0,0,.5);
+transition:
+transform .4s ease,
+box-shadow .4s ease;
+border-radius: .5em;
+}
+
+.photo:hover{
+    transform: scale(1.4);
+    -ms-transform: scale(0.5);
+    cursor: pointer;
+    transform:
+    rotate3d(0,0,0,0deg)
+    rotate(0deg)
+    scale(1.05);
+
+
+}
+
+.photo-block1{
+    background-image: url('./Certf/html.png');
+}
+
+.photo-block2{
+    background-image: url('./Certf/JavaScript.png');
+}
+
+.photo-block3{
+    background-image: url('./Certf/ArrayM.png');
+}
+
+.photo-block4{
+    background-image: url('./Certf/nokut.png');
+}
+
+.photo-block5{
+    background-image: url('./Certf/Provebevis.png');
+}
+
+.photo-block6{
+    background-image: url('./Certf/Kursbevis.png');
+}
+
+.ops{
+    height: 333px;
+    width: 440px;
+    text-align: justify;
+}

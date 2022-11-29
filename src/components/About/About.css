@@ -1,0 +1,9 @@
+.aboutBlock{
+    /* display: flex; */
+    /* justify-content: space-between; */
+    min-width: 1190px;
+    /* height: 108px; */
+    background: #292929;
+    /* overflow: hidden; */
+    /* grid-area: h, m, f; */
+}
