@@ -18,7 +18,7 @@ function App() {
      <Header/>
      <Routes>
 
-       <Route exact path = "/portfolio" element={<Main/>}/> 
+       <Route exact path = "/react_portfolio" element={<Main/>}/> 
        <Route path = "/about" element={<About/>}/>
        <Route exact path = "/projects" element={<Projects/>}/> 
        <Route path = "/contact" element={<Contact/>}/>
