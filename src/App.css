@@ -5,8 +5,8 @@
 
 
 .container {
-  max-width: 1190px;
-  margin: 0 auto;
+  max-width: 1192px;
+  margin: 10 auto;
   display: grid;
   grid-template-rows: 108px 1fr 200px;
   grid-template-areas: 
